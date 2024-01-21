@@ -10,3 +10,5 @@
 ^inst/code$
 ^vignettes/single\_cell\_rnaseq\_practical\.Rmd$
 ^\.Renviron$
+^.*\.Rproj$
+^\.Rproj\.user$

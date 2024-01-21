@@ -1,0 +1,15 @@
+
+```{r load-data}
+library(fastTopics)
+library(microbenchmark)
+data(pbmc_facs)
+counts <- pbmc_facs$counts
+dim(counts)
+```
+
+
+
+Runs Poisson NMF
+```{r}
+fit <- fit_topic_model(counts,k = 6)
+```

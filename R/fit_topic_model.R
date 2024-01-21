@@ -101,8 +101,7 @@
 #' 
 #' @export
 #'
-fit_topic_model <-
-  function (X, k, numiter.main = 100, numiter.refine = 100, method.main = "em",
+fit_topic_model <- function (X, k, numiter.main = 100, numiter.refine = 100, method.main = "em",
             method.refine = "scd", init.method = c("topicscore","random"),
             control.init = list(), control.main = list(numiter = 4),
             control.refine = list(numiter = 4,extrapolate = TRUE),

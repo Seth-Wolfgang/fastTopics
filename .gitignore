@@ -18,3 +18,7 @@ inst/derivations/diffcount/diffcount.blg
 inst/derivations/diffcount/diffcount.log
 inst/derivations/diffcount/diffcount.out
 inst/derivations/diffcount/diffcount.thm
+.Rproj.user
+fastTopics.Rproj
+.RData
+.Rhistory
